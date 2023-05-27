@@ -1,10 +1,15 @@
 .idea
 .DS_Store
 
+.gitignore
+
 node_modules
 package-lock.json
+
 tsconfig.json
+jest.config.ts
 .gitignore
+.prettierrc.js
 
 src
 dist/*.test.js
