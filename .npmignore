@@ -15,5 +15,5 @@ package-lock.json
 src
 
 # tests
-dist/*.test.js
-types/*.test.d.ts
+**/*.test.js
+**/*.test.d.ts

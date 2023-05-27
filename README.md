@@ -1,5 +1,12 @@
 ### work-time-diff
 
+#### Installation
+
+```
+npm i work-time-diff
+```
+
+#### Usage 
 ```ts
 const { getWorkTimeDiff } = require('work-time-diff');
 
@@ -8,7 +15,7 @@ const workingTime = {
         from: 10,
         to: 20,
     },
-    workingDays: ['1', '2', '3', '4', '5'],
+    workingDays: ['1', '2', '3', '4', '5'], // mon, tue, wed, thu, fri
     daysOff: ['2023-05-29'],
 };
 
