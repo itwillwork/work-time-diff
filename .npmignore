@@ -1,16 +1,19 @@
 .idea
 .DS_Store
 
+# service files
 .gitignore
-
-node_modules
-package-lock.json
-
 tsconfig.json
 jest.config.ts
 .gitignore
 .prettierrc.js
 
+node_modules
+package-lock.json
+
+# source code
 src
+
+# tests
 dist/*.test.js
 types/*.test.d.ts
