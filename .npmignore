@@ -1,0 +1,11 @@
+.idea
+.DS_Store
+
+node_modules
+package-lock.json
+tsconfig.json
+.gitignore
+
+src
+dist/*.test.js
+types/*.test.d.ts

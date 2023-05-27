@@ -1,0 +1,51 @@
+{
+  "name": "work-time-diff",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "types/*.d.ts",
+    "dist/*.js"
+  ],
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itwillwork/work-time-diff.git"
+  },
+  "homepage": "https://github.com/itwillwork/work-time-diff",
+  "keywords": [
+    "work-time-diff",
+    "node",
+    "moment",
+    "working",
+    "time",
+    "hours",
+    "days"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist && rm -rf types",
+    "tsc": "tsc --noEmit",
+    "test": "jest",
+    "format": "prettier --write ./src",
+    "build": "npm run clean && tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@jest/types": "^29.5.0",
+    "@types/jest": "^29.5.1",
+    "@types/lodash": "^4.14.194",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.8",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

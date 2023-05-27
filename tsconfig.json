@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "dist",
+    "lib": ["ESNext"],
+    "module": "commonjs",
+    "target": "ES6",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "declarationDir": "types",
+    "declaration": true
+  },
+  "exclude": ["./jest.config.ts"]
+}
