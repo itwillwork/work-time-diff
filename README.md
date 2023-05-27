@@ -1,6 +1,8 @@
 ### work-time-diff
 
 ```ts
+const { getWorkTimeDiff } = require('work-time-diff');
+
 const workingTime = {
     workingHours: {
         from: 10,
