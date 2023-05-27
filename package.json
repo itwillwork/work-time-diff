@@ -1,6 +1,6 @@
 {
   "name": "work-time-diff",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "files": [
     "types/*.d.ts",
@@ -27,10 +27,10 @@
   ],
   "scripts": {
     "clean": "rm -rf dist && rm -rf types",
-    "tsc": "tsc --noEmit",
+    "tsc": "tsc --project tsconfig.json",
     "test": "jest",
     "format": "prettier --write ./src",
-    "build": "npm run clean && tsc"
+    "build": "npm run clean && tsc --project tsconfig.build.json"
   },
   "author": "",
   "license": "ISC",
